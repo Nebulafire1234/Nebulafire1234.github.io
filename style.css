@@ -52,3 +52,24 @@ header {
     border-bottom-color: greenyellow;
     border-right-color: greenyellow;
 }
+
+.question-1, .question-2, .question-3 {
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: #728277;
+    border-left-color: #89918b;
+    border-right-color: #565957;
+    border-bottom-color: #b6bab7;
+}
+
+.question-1 {
+    background-color: brownred;
+}
+
+.question-2 {
+    background-color: #b59360;
+}
+
+.question-3 {
+    background-color: #7a5da3;
+}
