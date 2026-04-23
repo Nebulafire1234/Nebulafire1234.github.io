@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+.title {
+    display: block;
+    width: auto;
+    text-align: center;
+    color: #830a9c;
+    font-family: "Mea Culpa";
+    font-size: 30px;
+    background-image: url(download-removebg-preview.png);
+    background-size: 514px 112px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    display: inline-block;
+    width: 70%;
+    margin: auto;
+}
+
+aside {
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+body {
+    background-color: beige;
+}
+
+div {
+    display: block;
+}
+
+header {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+.parent {
+    display: flex;
+}
+
+.img1 {
+    /* border: 10px solid #830a9c; */
+    border-width: 10px;
+    border-style: solid;
+    border-top-color: green;
+    border-left-color: green;
+    border-bottom-color: greenyellow;
+    border-right-color: greenyellow;
+}
