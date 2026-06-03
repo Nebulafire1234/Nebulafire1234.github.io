@@ -1,8 +1,9 @@
 h1 {
   text-align: center;
-  text-decorations: underline;
+  text-decoration: underline;
   color: #0B7A75;
   text-decoration-color: #34E5FF;
+  text-size: 64px;
 }
 
 body {
