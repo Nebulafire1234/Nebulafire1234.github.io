@@ -1,1 +1,10 @@
+h1 {
+  text-align: center;
+  text-decorations: underline;
+  color: #0B7A75;
+  text-decoration-color: #34E5FF;
+}
 
+body {
+  background-color: #D3BDB0;
+}
