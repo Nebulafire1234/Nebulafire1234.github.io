@@ -7,8 +7,13 @@ h1 {
   display: block;
 }
 
-body {
+article {
   background-color: #D3BDB0;
+  border-top: 10px solid orchid;
+  border-bottom: 10px solid mediumorchid;
+  border-left: 10px solid purple;
+  border-right: 10px solid magenta;
+  display: inline-block;
 }
 
 .image1 {
