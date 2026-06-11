@@ -94,3 +94,10 @@ p.fancy {
 .cool {
   text-align: center;
 }
+
+.disabled {
+  pointer-events: none; 
+  cursor: default;      
+  color: #888888;       
+  text-decoration: none; 
+}
