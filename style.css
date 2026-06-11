@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cherry+Bomb+One&family=Mea+Culpa&display=swap');
 
 h1 {
   text-align: center;
@@ -10,6 +10,11 @@ h1 {
   font-family: 'Mea Culpa';
 }
 
+p {
+  font-family: 'Cherry Bomb One';
+  /* font-size: 32px; */
+}
+
 article {
   background-color: #D3BDB0;
   border-top: 10px solid orchid;
@@ -17,6 +22,18 @@ article {
   border-left: 10px solid purple;
   border-right: 10px solid magenta;
   display: inline-block;
+}
+
+.cool {
+  background-color: #D3BDB0;
+}
+
+#test {
+  border-top: 10px solid orchid;
+  border-bottom: 10px solid mediumorchid;
+  border-left: 10px solid purple;
+  border-right: 10px solid magenta;
+  height: 100%;
 }
 
 .image1 {
@@ -67,4 +84,8 @@ ul li a:hover {
   border: none;
   padding: 15px;
   transition: 1s;
+}
+
+.cool {
+  text-align: center;
 }
