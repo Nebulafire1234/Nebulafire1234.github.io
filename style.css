@@ -52,3 +52,19 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+
+.fancy {
+  background-color: white;
+  border: solid 5px mediumorchid;
+  color: mediumorchid;
+  padding: 10px;
+  transition: 1s;
+}
+
+.fancy:hover {
+  background-color: mediumorchid;
+  color: white;
+  border: none;
+  padding: 15px;
+  transition: 1s;
+}
