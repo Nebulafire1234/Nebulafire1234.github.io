@@ -100,8 +100,8 @@ p.fancy {
 }
 
 .disabled {
-  pointer-events: none; 
-  cursor: no-drop;      
+  pointer-events: none;
+  cursor: no-drop;       
   color: #888888;       
   text-decoration: none; 
 }
