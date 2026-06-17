@@ -2,6 +2,21 @@ function backhome() {
     window.location.href = "index.html"
 }
 
+function authenticate() {
+    var cred = document.getElementById("cred").value;
+    var pword = document.getElementById("pword").value;
+
+    if (cred == 'toast' && pword == '2186') {
+        document.getElementById("blocked").style.display = 'none';
+        document.getElementById("content").style.display = 'block';
+    }
+}
+
+function test() {
+    document.getElementById("blocked").style.display = 'none';
+    document.getElementById("content").style.display = 'block';
+}
+
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 10, 2100 10:00:00").getTime();
 
