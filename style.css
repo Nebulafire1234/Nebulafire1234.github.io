@@ -86,6 +86,10 @@ button.fancy:hover {
   transition: 1s;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 p.fancy {
   font-family: 'Ballet';
   font-size: 32px;
@@ -97,7 +101,7 @@ p.fancy {
 
 .disabled {
   pointer-events: none; 
-  cursor: default;      
+  cursor: no-drop;      
   color: #888888;       
   text-decoration: none; 
 }
