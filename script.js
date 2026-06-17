@@ -10,6 +10,9 @@ function authenticate() {
         document.getElementById("blocked").style.display = 'none';
         document.getElementById("content").style.display = 'block';
     }
+    else {
+        document.getElementById("failed").innerHTML = "Incorrect Username or Password."
+    }
 }
 
 function test() {
@@ -18,7 +21,7 @@ function test() {
 }
 
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 10, 2100 10:00:00").getTime();
+var countDownDate = new Date("Oct 10, 6000 10:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -30,13 +33,14 @@ var x = setInterval(function() {
   var distance = countDownDate - now;
 
   // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365))
+  var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 365) / (1000 * 60 * 60 * 24)));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+  document.getElementById("countdown").innerHTML = years + "y " + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
