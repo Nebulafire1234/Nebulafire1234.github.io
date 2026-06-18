@@ -11,8 +11,12 @@ function authenticate() {
         document.getElementById("content").style.display = 'block';
         const stylesheet = document.getElementById("stylish");
         const fav = document.getElementById("favicon");
+        const cred = document.getElementById("cred");
+        const pword = document.getElementById("pword");
         stylesheet.setAttribute('href', "style.css");
         fav.setAttribute('href', "favicon.png");
+        cred.value = "";
+        pword.value = "";
     }
     else {
         document.getElementById("failed").innerHTML = "Incorrect Username or Password."
