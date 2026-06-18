@@ -3,7 +3,8 @@
     <head>
         <script src="script.js"></script>
         <title id="title">ACCESS NOT PERMITTED</title>
-        <link rel="icon" href="favicon.png">
+        <link rel="icon" id="favicon" href="locked.png">
+        <link rel="stylesheet" id="stylish" href="">
         <style>
             #blocked {
                 text-align: center;
@@ -13,7 +14,7 @@
             }
         </style>
     </head>
-    <body>
+    <body class="cool">
         <div id="blocked">
         <h1>ACCESS NOT PERMITTED</h1>
         <h2>Enter Credentials to continue</h2>
@@ -22,10 +23,11 @@
         <label for="password">Password:</label>
         <input type="number" id="pword" name="password"><br><br>
         <button onclick="authenticate()">Enter</button>
+        <button onclick="backhome()">Go Home</button>
         <p id="failed"></p>
         </div>
         <div id="content">
-            <h1>HELLO WORLD!</h1>
+            <h1>Equipment Needed for Kendo</h1>
             <nav>
                 <ul>
                   <li><a href="index.html">Main Page</a></li>
