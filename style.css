@@ -16,7 +16,8 @@ p {
 }
 
 article.index {
-  background-color: #D3BDB0;
+  background-color: #0b7a75;
+  background-image: linear-gradient(to bottom right, #0b7a75, #4d6cfa);
   border-top: 10px solid orchid;
   border-bottom: 10px solid mediumorchid;
   border-left: 10px solid purple;
