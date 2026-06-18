@@ -46,7 +46,7 @@ article.index {
   padding-right: 35%;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -54,11 +54,11 @@ ul {
   background-color: #333333;
 }
 
-ul li {
+nav ul li {
   float: left;
 }
 
-ul li a {
+nav ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -104,4 +104,18 @@ p.fancy {
   cursor: no-drop;       
   color: #888888;       
   text-decoration: none; 
+}
+
+.regular {
+  color: firebrick;
+  font-family: 'Cherry Bomb One';
+  background-color: #D3BDB0;
+  list-style-type: circle;
+  text-align: center;
+}
+
+.kindaboring {
+  background-color: red;
+  color: white;
+  border: 4px solid black;
 }

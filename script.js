@@ -10,22 +10,31 @@ function authenticate() {
         document.getElementById("blocked").style.display = 'none';
         document.getElementById("content").style.display = 'block';
         const stylesheet = document.getElementById("stylish");
-        const fav = document.getElementById("favicon")
-        stylesheet.setAttribute('href', "style.css")
-        fav.setAttribute('href', "favicon.png")
+        const fav = document.getElementById("favicon");
+        stylesheet.setAttribute('href', "style.css");
+        fav.setAttribute('href', "favicon.png");
     }
     else {
         document.getElementById("failed").innerHTML = "Incorrect Username or Password."
     }
 }
 
+function lock() {
+    document.getElementById("blocked").style.display = 'block';
+    document.getElementById("content").style.display = 'none';
+    const stylesheet = document.getElementById("stylish");
+    const fav = document.getElementById("favicon");
+    stylesheet.setAttribute('href', "")
+    fav.setAttribute('href', "locked.png")
+}
+
 function test() {
     document.getElementById("blocked").style.display = 'none';
     document.getElementById("content").style.display = 'block';
     const stylesheet = document.getElementById("stylish");
-    const fav = document.getElementById("favicon")
-    stylesheet.setAttribute('href', "style.css")
-    fav.setAttribute('href', "favicon.png")
+    const fav = document.getElementById("favicon");
+    stylesheet.setAttribute('href', "style.css");
+    fav.setAttribute('href', "favicon.png");
 }
 
 // Set the date we're counting down to
