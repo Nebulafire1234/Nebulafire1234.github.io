@@ -22,6 +22,10 @@ function authenticate() {
 function test() {
     document.getElementById("blocked").style.display = 'none';
     document.getElementById("content").style.display = 'block';
+    const stylesheet = document.getElementById("stylish");
+    const fav = document.getElementById("favicon")
+    stylesheet.setAttribute('href', "style.css")
+    fav.setAttribute('href', "favicon.png")
 }
 
 // Set the date we're counting down to
